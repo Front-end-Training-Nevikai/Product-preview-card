@@ -1,0 +1,22 @@
+@import url(./reset.css);
+@import url(./root.css);
+
+
+@media (min-width: 48em){
+.card{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    width: 100%;
+}
+.card__picture{
+width: 50%;
+}
+.card__information{
+width: 50%;
+}
+img{
+    height: 100%;
+    border-radius:  var(--space-two) 0 0 var(--space-two) ;
+}
+}

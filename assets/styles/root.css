@@ -1,0 +1,35 @@
+:root{
+
+    /* Color */
+
+    --color-black:#1C232B;
+    --color-grey:#6C7289;
+    --color-cream:#F2EAE2;
+    --color-white:#FFFFFF;
+    --color-green-500:#3D8168;
+    --color-green-700:#1A4032;
+
+    /* typography */
+    --txt-xlg:2rem;
+    --txt-lg:0.875rem;
+    --txt-md:0.8125rem;
+    --txt-sm:0.75rem;
+
+    /* line height */
+    --line-lg:160%;
+    --line-md:120%;
+    --line-sm:110%;
+
+    /* letter spacing */
+    --letter-one:5px;
+
+    /* spacing */
+    --space-five:40px;
+    --space-four:32px;
+    --space-three:24px;
+    --space-two:16px;
+    --space-one:8px;
+    --space-zero:4px;
+
+
+}
