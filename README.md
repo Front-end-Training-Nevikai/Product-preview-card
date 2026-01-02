@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL:** [Frontend Mentor Solution](https://www.frontendmentor.io/profile/nevikai)
-- **Live Site URL:** [Live Demo]()
+- **Solution URL:** [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/product-preview-card-QMtWQ2A5qG)
+- **Live Site URL:** [Live Demo](https://front-end-training-nevikai.github.io/Product-preview-card/)
 
 ---
 
