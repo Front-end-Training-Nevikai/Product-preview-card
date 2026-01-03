@@ -73,12 +73,14 @@ Users should be able to:
 │   │   ├── screenshot.png
 │   │   └── cart-icon.svg
 │   └── styles
-│       ├── main.css
-│       ├── mobile.css
-│       ├── desktop.css
-│       ├── footer.css
+│       styles/
 │       ├── reset.css
-│       └── root.css
+│       ├── variable.css
+│       ├── button.css
+│       ├── card.css
+│       ├── footer.css
+│       ├── responsive.css
+│       └── global.css
 ├── index.html
 ├── README.md
 └── .gitignore

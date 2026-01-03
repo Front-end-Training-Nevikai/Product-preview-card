@@ -1,6 +1,15 @@
-@import url(./reset.css);
-@import url(./root.css);
-
+@import url("./reset.css");
+@import url("./variable.css");
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100%;
+    border-radius:  var(--space-two) var(--space-two) 0 0 ;
+}
 
 @media (min-width: 48em){
 .card{

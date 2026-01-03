@@ -1,5 +1,5 @@
-@import url(./reset.css);
-@import url(./root.css);
+@import url("./reset.css");
+@import url("./variable.css");
 
-.card__attribution { font-size: 11px; text-align: center; }
-    .card__attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }

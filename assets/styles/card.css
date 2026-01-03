@@ -1,21 +1,10 @@
-@import url(./reset.css);
-@import url(./root.css);
-
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+@import url("./reset.css");
+@import url("./variable.css");
 .card{
     width: 80%;
     margin: 3rem 0 ;
     border-radius:var(--space-two); ;
     background-color: var(--color-white);
-}
-img{
-    height: 100%;
-    border-radius:  var(--space-two) var(--space-two) 0 0 ;
 }
 .card__information{
     display: flex;
@@ -29,7 +18,7 @@ img{
 );
     padding: var(--space-four);
 }
-.card__information-sec1{
+.card__content{
     display: flex;
     flex-direction: column;
     gap: var(--space-three);
@@ -45,7 +34,7 @@ img{
      text-transform: uppercase;
       align-self: flex-start;
 }
-.card__product-title{
+.card__title{
     font-family: 'Fraunces';
     font-size: clamp(
   1.5rem,
@@ -55,7 +44,7 @@ img{
     line-height: 100%;
     font-weight: 900;
 }
-.card__product-text{
+.card__text{
     color: var(--color-grey);
     line-height: var(--line-lg);
     font-size: clamp(
@@ -64,7 +53,7 @@ img{
   var(--txt-lg)
 );  ;
 }
-.card__information-sec2{
+.card__pricing{
     display: flex;
     align-self: flex-start;
     justify-content: center;
@@ -75,7 +64,7 @@ img{
   var(--space-two)
 );
 }
-.card__product-price{
+.card__price{
     color: var(--color-green-500);
   font-size: clamp(
   1.8rem,
@@ -85,59 +74,11 @@ img{
     font-family: 'Fraunces';
     font-weight: 700;
 }
-.card__product-off-price{
+.card__old-price{
     font-size: clamp(
   var(--txt-sm),
   0.7rem + 0.25vw,
   var(--txt-md)
 );
   color: var(--color-grey);
-
-}
-.card__button{
-    background-color: var(--color-green-500);
-    color: var(--color-white);
-    padding: 16px 32px ;
-    width: 100%;
-   font-size: clamp(
-  var(--txt-md),
-  0.75rem + 0.3vw,
-  var(--txt-lg));
-    display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: clamp(
-  var(--space-one),
-  0.5rem + 0.4vw,
-  var(--space-two)
-);
-  font-weight: 700;
-  border-radius: var(--space-one) ;
-    transition:
-    background-color 200ms ease,
-    transform 200ms ease,
-    box-shadow 200ms ease;
-}
-.card__button:hover {
-  background-color: var(--color-green-700);
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-.card__button:active {
-  transform: translateY(0);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.card__button:focus-visible {
-  outline: 2px solid var(--color-green-700);
-  outline-offset: 4px;
-}
-.card__button i {
-  transition: transform 200ms ease;
-}
-
-.card__button:hover i {
-  transform: translateX(4px);
 }
